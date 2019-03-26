@@ -10,3 +10,8 @@ spring:
   application:
     name: USER-PROVIDER
   profiles: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/ #服务注册中心的地址，去这里注册服务
+
